@@ -1,0 +1,28 @@
+.whatsapp{
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+    background-image: url("/images/whatsapp.png");
+    background-position: 75%;
+    background-size: cover;
+}
+
+.whatsapp:hover{
+    opacity: 0.8;
+}
+
+.whatsappOpen{
+    height: 315px;
+    width: 350px;
+    background-color: green;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    background-image: url("/images/waOpen.png");
+    border-radius: 10px;
+}
